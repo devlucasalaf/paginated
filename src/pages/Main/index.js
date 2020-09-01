@@ -49,8 +49,8 @@ const Main = () => {
         )
       })}
       <div id='buttonDiv'>
-        <button onClick={prevPage}>Anterior</button>
-        <button onClick={nextPage}>Próximo</button>
+        <button disabled={state.page === 1} onClick={prevPage}>Anterior</button>
+        <button disabled={state.page === state.totalPages} onClick={nextPage}>Próximo</button>
       </div>
     </div>
   )
