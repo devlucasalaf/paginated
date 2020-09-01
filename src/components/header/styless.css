@@ -1,0 +1,15 @@
+#headerDiv {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(241, 149, 1)
+}
+
+#headerDiv a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.6rem
+}

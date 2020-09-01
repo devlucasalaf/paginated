@@ -1,0 +1,64 @@
+#firstDiv {
+  max-width: 700px;
+  margin: auto;
+}
+
+#articleDiv {
+  width: 100%;
+  background: white;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 0.8rem;
+}
+
+#articleDiv:hover{
+  box-shadow: 2px 3px 0px rgb(206, 202, 202);
+}
+
+#articleDiv strong {
+  font-size: 2rem;
+  margin-bottom: 20px
+}
+
+#articleDiv p {
+  font-size: 1.4rem;
+  margin-bottom: 20px
+}
+
+#articleDiv a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid orange;
+  padding: 5px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+#articleDiv a:hover {
+  background: orange;
+  border-radius: 0.8rem;
+}
+
+#buttonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 20px
+}
+
+#buttonDiv button {
+  width: 100px;
+  height: 30px;
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s
+}
+
+#buttonDiv button:hover {
+  background: rgb(253, 93, 0);
+  border-radius: 0.8rem;
+}

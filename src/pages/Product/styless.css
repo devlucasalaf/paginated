@@ -1,0 +1,32 @@
+#productDiv {
+  margin: auto;
+  max-width: 700px;
+  background: white;
+  padding: 30px;
+  border-radius: 0.8rem;
+  margin-top: 20px
+}
+
+#productDiv {
+  box-shadow: 2px 3px 0px rgb(206, 202, 202)
+}
+
+#productDiv strong {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#productDiv p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+#productDiv a {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#productDiv a:hover {
+  text-decoration: underline;
+}
